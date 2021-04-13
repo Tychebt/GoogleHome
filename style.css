@@ -123,6 +123,7 @@ button{
    background-color: rgba(0,0,0,0.03);
    border:  rgba(0,0,0,0.0) solid 1px;
    padding: 7px;
+   font-weight: 400;
 }
 
 button:hover{
