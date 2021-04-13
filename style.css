@@ -79,14 +79,70 @@ header.page-header{
 
 main{
    position: absolute;
-   top: 11%;
+   top: 20%;
    width: 100%;
    height: 40%;
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
+}
+
+input{
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.searchBar{
+   display: flex;
+   align-items: center;
+   border-radius: 20px 20px 20px 20px;
+   background-color: transparent;
+   height: 30px;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.30) ;
+}
+
+.searchBar:hover{
+   border-color: rgba(0,0,0,0.87);
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20) ;
+}
+
+input:focus{
+   color: rgba(0,0,0,0.87);
+}
+
+.boutons{
+   display: flex;
+   margin: 25px;
+}
+button{
+   background-color: rgba(0,0,0,0.03);
+   border:  rgba(0,0,0,0.0) solid 1px;
+   padding: 7px;
+}
+
+button:hover{
+   border: rgba(0,0,0,0.1) solid 1px;
+}
+
+.btnrech{
+margin-right: 12px;
+}
+
+.btnChan{
+ margin-left: 12px;
 }
 
 
+.dispLang{
+   font-size: 12px;
+}
+.dispLang a{
+   color: #1a0dab;
+}
+.dispLang a:hover{
+   text-decoration: underline;
+}
 
 /* Footer */
