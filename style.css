@@ -88,9 +88,13 @@ main{
    flex-direction: column;
 }
 
+.logogg{
+   padding-bottom: 20px;
+}
+
 input{
   height: 100%;
-  border: 1px solid black;
+  border: 1px solid rgba(0,0,0,0.2);
   border-radius: 20px 20px 20px 20px;
 }
 
@@ -99,13 +103,12 @@ input{
    align-items: center;
    border-radius: 20px 20px 20px 20px;
    background-color: transparent;
-   height: 30px;
-   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.30) ;
+   height: 39px;
 }
 
 .searchBar:hover{
    border-color: rgba(0,0,0,0.87);
-   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20) ;
+   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20) ;
 }
 
 input:focus{
