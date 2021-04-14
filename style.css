@@ -112,7 +112,7 @@ input{
 }
 
 input:focus{
-   color: rgba(0,0,0,0.87);
+   color: rgba(247, 28, 28, 0);
 }
 
 .boutons{
