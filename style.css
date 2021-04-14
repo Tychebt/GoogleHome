@@ -238,6 +238,7 @@ margin-right: 12px;
          height: 30%;
          width: 100%;
       }
+   }
    @media (max-width: 384px){
       main{
          top: 18%;
