@@ -95,6 +95,14 @@ main{
    padding-bottom: 20px;
 }
 
+.loupe {
+   position: absolute;
+   top: 0;
+   left: 11%;
+   width: 22px;
+   top: 50%;
+}
+
 input{
   height: 100%;
   border: 1px solid rgba(0,0,0,0.2);
