@@ -9,7 +9,6 @@ body{
    color: #222;
    height: 100%;
    display: flex;
-   overflow: hidden;
 }
 
 a {
@@ -210,5 +209,26 @@ margin-right: 12px;
       line-height: 35px;
       text-align: center;
    }
+  
+   @media (min-width: 580px){
+      body{
+         overflow: hidden;
+      }
+   }
 
-   
+
+   @media (max-width: 850px){
+      .foocontainer{
+         width: 80%;
+      }
+   }
+   @media (max-width: 690px){
+      .foocontainer{
+         font-size: 13px;
+      }
+      p.ecolo{
+         font-size: 14px;
+      }
+      input{
+         width: 90%;
+      }
