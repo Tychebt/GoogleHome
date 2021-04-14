@@ -233,6 +233,8 @@ margin-right: 12px;
          width: 90%;
       }
       footer{
+         top:73%;
          height: 30%;
+         width: 100%;
       }
    }
