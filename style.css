@@ -9,6 +9,7 @@ body{
    color: #222;
    height: 100%;
    display: flex;
+   overflow: hidden;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
 header{
    position: absolute;
    top: 2%;
-   left: -2%;
+   left: -15px;
    width: 100%;
    height: 0.5%;
 }
@@ -68,6 +69,7 @@ header.page-header{
    border-radius: 50%;
    height: 40px;
    width: 40px;
+   margin-right:10px;
 }
 
 .ponpon img:hover{
@@ -140,7 +142,8 @@ margin-right: 12px;
 
 
 .dispLang{
-   font-size: 12px;
+   font-size: 13px;
+   font-family: Arial, sans-serif;
 }
 .dispLang a{
    color: #1a0dab;
@@ -156,12 +159,44 @@ margin-right: 12px;
    top: 80%;
    width: 100%;
    height: 20%;
+ }
+
+ footer.page-footer{
    display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 4px;
+   color: #70757a;
+ }
+
+ footer a{
+    color: #70757a;
  }
 
  footer a:hover{
     text-decoration: underline;
  }
+
+ p.pays{
+   padding-right: 88%;
+   padding-top: 10px;
+   padding-left: 25px;
+   width: 100%;
+   height: 30px;
+   border-bottom: 1px solid #dadce0;
+ }
+
+ p.ecolo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20px;
+   margin-top: -25px;
+   width: 100%;
+   padding-top: 7px;
+   }
+
+   .ecolo img{
+   padding-right: 5px;
+   transform: rotate(10deg);
+   }
