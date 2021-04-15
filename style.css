@@ -5,10 +5,12 @@
    position: absolute;
    top: 50px;
    right: 52px;
+   transition: height 1s ease;
 }
 
 .active{
    height: 100px!important;
+
 }
 
 /* General */
