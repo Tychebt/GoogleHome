@@ -63,7 +63,22 @@ header.page-header{
 }
 .icoApp:hover{
    background: rgba(0,0,0,0.07);
+}
 
+.icoApp::after{
+   display: block;
+   content: "";
+   background-color: #1a0dab;
+   position: absolute;
+   top: 40px;
+   right: 30px;
+   width: 200px;
+   height: 300px;
+   z-index: 9;
+   border: #222 2px solid;
+   border-radius: 10%;
+   box-shadow: 5px 5ps 5px 5px red;
+   box-shadow: -7px 13px 20px 0px #8e8e8e;
 }
 
 .ponpon img{
