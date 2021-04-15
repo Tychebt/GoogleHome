@@ -1,3 +1,15 @@
+#drop {
+   background: aqua;
+   width: 100px;
+   height: 0px;
+   position: absolute;
+   top: 50px;
+   right: 52px;
+}
+
+.active{
+   height: 100px!important;
+}
 
 /* General */
 
@@ -66,7 +78,7 @@ header.page-header{
 }
 
 .icoApp::after{
-   display: block;
+   display:none;
    content: "";
    background-color: #1a0dab;
    position: absolute;
@@ -235,6 +247,9 @@ margin-right: 12px;
       text-align: center;
    }
   
+
+/* Responsive */
+
    @media (min-width: 580px){
       body{
          overflow: hidden;
@@ -290,8 +305,8 @@ margin-right: 12px;
          height: 30%;
       }
       footer{
-         top:60%;
-         height: 40%;
+         top:55%;
+         height: 45%;
          width: 100%;
       }
    }
