@@ -165,12 +165,20 @@ main{
    padding-bottom: 20px;
 }
 
-.loupe {
+.asvocal{
    position: relative;
    top: 0;
-   left: 2%;
-   width: 23px;
-   top: 54%;
+   left: 95%;
+   width: 22px;
+   top: 0%;
+}
+
+.loupe {
+   position: relative;
+    top: 0;
+    left: 5%;
+    width: 23px;
+    top: 54%;
 }
 
 input{
@@ -302,7 +310,10 @@ margin-right: 12px;
 
    @media (max-width: 690px){
      .loupe{
-      left: 7%;
+      left: 9%;
+     }
+     .asvocal{
+        left: 88%;
      }
    }
    @media (max-width: 850px){
@@ -341,6 +352,7 @@ margin-right: 12px;
       height: 40%;
       width: 100%;
    }
+   
    }
    @media (max-width: 384px){
       main{
