@@ -340,6 +340,9 @@ margin-right: 12px;
    }
    }
    @media (max-width: 384px){
+     body{
+        overflow: hidden;
+     }
       main{
          top: 18%;
          width: 100%;
