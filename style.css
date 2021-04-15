@@ -251,6 +251,10 @@ margin-right: 12px;
          height: 30%;
          width: 100%;
       }
+      .searchBar:hover {
+         border-color: rgba(0,0,0,0.87);
+         box-shadow: none;
+     }
    }
    @media (max-width: 580px){
    main{
