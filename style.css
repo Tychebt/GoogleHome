@@ -15,6 +15,7 @@
 }
 .inactive a{
    display: none;
+   transition: all 1s ease;
 }
 
 
@@ -176,10 +177,12 @@ input{
   height: 100%;
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 20px 20px 20px 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 input:focus{
-   display: none;
+   outline:inherit;
 }
 
 .searchBar{
