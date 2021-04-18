@@ -161,13 +161,16 @@ main{
    flex-direction: column;
 }
 
-.logogg{
-   padding-bottom: 20px;
-}
-
 input:hover{
    border-color: rgba(0,0,0,0.27);
    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20) ;
+}
+
+.searchBar{
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   height: 90px;
 }
 
 .asvocal{
@@ -181,7 +184,7 @@ input:hover{
    position: relative;
     left: 3%;
     width: 23px;
-    top: 54%;
+    top: 40%;
 }
 
 input{
@@ -219,7 +222,6 @@ margin-right: 12px;
 .btnChan{
  margin-left: 12px;
 }
-
 
 .dispLang{
    font-size: 13px;
@@ -300,10 +302,10 @@ margin-right: 12px;
 
    @media (max-width: 690px){
      .loupe{
-      left: 9%;
+      left: 2%;
      }
      .asvocal{
-        left: 88%;
+        left: 94%;
      }
    }
    @media (max-width: 850px){
@@ -319,17 +321,16 @@ margin-right: 12px;
          font-size: 14px;
       }
       input{
-         width: 90%;
+         width: 100%;
       }
       footer{
          top:73%;
          height: 30%;
          width: 100%;
       }
-      .searchBar:hover {
-         border-color: rgba(0,0,0,0.87);
-         box-shadow: none;
-     }
+      .searchBar{
+         width:90%;
+      }
    }
    @media (max-width: 580px){
    main{
